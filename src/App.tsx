@@ -10,12 +10,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/planet-tech/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
-        <Route path="/signup" element={<Authentication />} />
-        <Route path="/:id/landing" element={<LandingPage />} />
+        <Route path="/planet-tech/signup" element={<Authentication />} />
+        <Route
+          path="/planet-tech/signup/planet-tech/landing"
+          element={<LandingPage />}
+        />
         {/* <Route path="/IcyEazy-planet_tech-website/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/services" element={<Services />} />

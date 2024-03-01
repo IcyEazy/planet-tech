@@ -8,7 +8,7 @@ function Footer() {
     <div className="bg-[#000424] p-5 lg:px-10">
       <div className="flex flex-col lg:flex-row items-center lg:justify-between gap-12">
         <div className="lg:w-[300px]">
-          <NavLink to="/">
+          <NavLink to="/planet-tech/">
             <div className="flex items-center hover:scale-90 transition-all delay-150 ease-in-out">
               <img className="w-[200px] h-[90px]" src={logoFooter} alt="" />
               <img className="w-[50px] h-[50px]" src={logoFooterB} alt="" />

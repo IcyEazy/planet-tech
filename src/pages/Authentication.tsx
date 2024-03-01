@@ -37,7 +37,7 @@ function Authentication() {
         </div>
       </div>
       <div className="mt-[-40px] md:mt-[-150px]">
-        <NavLink to="/">
+        <NavLink to="/planet-tech/">
           <button
             type="button"
             className="bg-[#0066ff] font-semibold text-white px-6 py-2 rounded-md lg:text-xl hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"

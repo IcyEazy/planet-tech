@@ -23,7 +23,7 @@ function Discover() {
             community of resources, networks, event and opportunities to its
             members.{" "}
           </p>
-          <NavLink to="/signup">
+          <NavLink to="/planet-tech/signup">
             <button className="bg-[#0066ff] lg:text-2xl text-white p-2 rounded-md mt-5 w-60 py-3 font-bold hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out">
               Join Us Today
             </button>

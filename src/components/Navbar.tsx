@@ -12,7 +12,7 @@ export function NavbarA() {
     <div>
       <div className="flex md:gap-3 items-center justify-between px-2 md:px-6 py-4">
         <div className="hover:scale-90 transition-all delay-150 ease-in-out">
-          <NavLink className="flex items-center" to="/">
+          <NavLink className="flex items-center" to="/planet-tech/">
             <img className="w-28 md:w-40" src={Logo} alt="logo" />
             <svg
               className="w-16 md:w-auto"
@@ -32,7 +32,7 @@ export function NavbarA() {
         <div className="hidden md:flex gap-2 md:gap-4 lg:gap-9">
           <NavLink
             className="lg:text-xl font-semibold hover:text-[#0066FF] hover:font-bold transition-all delay-150 ease-in-out"
-            to="/"
+            to="/planet-tech/"
           >
             Home
           </NavLink>
@@ -56,7 +56,7 @@ export function NavbarA() {
           </NavLink>
         </div>
         <div className="hidden md:block">
-          <NavLink to="/signup">
+          <NavLink to="/planet-tech/signup">
             <button
               type="button"
               className="bg-[#0066ff] text-white px-6 py-2 rounded-md lg:text-xl hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
@@ -67,7 +67,7 @@ export function NavbarA() {
         </div>
         <div className="md:hidden flex items-center gap-4">
           {!isOpen && (
-            <NavLink to="/signup">
+            <NavLink to="/planet/signup">
               <button
                 type="button"
                 className="bg-[#0066ff] text-white font-medium px-3 py-1.5 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
@@ -108,7 +108,7 @@ export function NavbarA() {
         <div className="flex flex-col md:hidden gap-5 items-center text-2xl px-4 mt-3 py-16 bg-[#d4d0d0] h-screen">
           <NavLink
             className="font-semibold hover:text-white hover:font-bold transition-all delay-150 ease-linear"
-            to="/"
+            to="/planet-tech/"
           >
             Home
           </NavLink>
@@ -130,7 +130,7 @@ export function NavbarA() {
           >
             About
           </NavLink>
-          <NavLink to="/signup">
+          <NavLink to="/planet-tech/signup">
             <button
               type="button"
               className="bg-[#0066ff] text-white mt-4 font-medium px-3 py-1.5 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
@@ -153,7 +153,7 @@ export function NavbarB() {
         <div className="flex items-center">
           <NavLink
             className="hover:scale-90 transition-all delay-150 ease-in-out"
-            to="/"
+            to="/planet-tech/"
           >
             <svg
               width="88"
@@ -175,7 +175,7 @@ export function NavbarB() {
           <div className="hidden md:flex gap-6 lg:gap-10 lg:ml-4 text-white">
             <NavLink
               className="lg:text-xl font-semibold hover:text-[#FEC123] hover:font-bold transition-all delay-150 ease-in-out"
-              to="/"
+              to="/planet-tech/"
             >
               Home
             </NavLink>
@@ -246,13 +246,13 @@ export function NavbarB() {
           <div className="mt-6 flex flex-col gap-5 items-center text-white mb-8">
             <NavLink
               className="mt-4 font-semibold hover:text-[#0166DA] hover:font-bold transition-all delay-150 ease-linear"
-              to="/"
+              to="/planet-tech/"
             >
               Profile
             </NavLink>
             <NavLink
               className="font-semibold hover:text-[#0166DA] hover:font-bold transition-all delay-150 ease-linear"
-              to="/IcyEazy-planet_tech-website/"
+              to="/planet-tech/"
             >
               Home
             </NavLink>
@@ -274,7 +274,7 @@ export function NavbarB() {
             >
               About
             </NavLink>
-            <NavLink to="/signup">
+            <NavLink to="/planet-tech/signup">
               <button
                 type="button"
                 className="bg-[#0066ff] text-white text-[15px] mt-4 font-semibold px-6 py-1 md:text-xl md:py-2 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"

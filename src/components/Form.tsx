@@ -128,7 +128,7 @@ function Form({
           <div className="flex flex-col gap-8 items-center justify-center mt-4">
             <form
               onSubmit={handleSignUpSubmit}
-              action="/:id/landing"
+              action="/planet-tech/signup/planet-tech/landing"
               className="w-full flex flex-col items-center"
             >
               <div className="flex flex-col gap-1 mb-6 w-full">
@@ -318,7 +318,7 @@ function Form({
       {isLogIn && (
         <form
           onSubmit={handleLoginSubmit}
-          action="/:id/landing"
+          action="/planet-tech/signup/planet-tech/landing"
           className="w-full"
         >
           <div className="flex flex-col gap-1 mb-6">
