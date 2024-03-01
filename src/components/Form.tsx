@@ -222,9 +222,7 @@ function Form({
                   placeholder="Re-enter password"
                 />
                 {!isConfirmPasswordValid && (
-                  <p className="text-red-500">
-                    It doesn't match with password!
-                  </p>
+                  <p className="text-red-500">Doesn't match with password!</p>
                 )}
               </div>
               <div className="flex justify-between items-center w-full gap-4 mt-10 mb-14">
