@@ -12,7 +12,7 @@ function Team() {
         </h2>
         <img className="w-[200px] lg:w-auto h-[150px]" src={LogoB} alt="" />
       </div>
-      <div className="flex justify-between">
+      {/* <div className="flex justify-between">
         <NavLink to="/">
           <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-90 transition-all delay-150 ease-in-out">
             <img
@@ -56,8 +56,8 @@ function Team() {
             <p className="text-xl lg:text-3xl">Frontend Developer</p>
           </div>
         </NavLink>
-      </div>
-      <div className="flex justify-evenly mt-14 lg:mt-20">
+      </div> */}
+      <div className="flex justify-evenly">
         <NavLink
           to="https://icyeazy.github.io/IcyEazy-portfolio-website/"
           target="_blank"
@@ -83,13 +83,13 @@ function Team() {
               alt=""
             />
             <h3 className="text-xl lg:text-3xl font-semibold mt-3">
-              MaryJane Okafor
+              Mariam Yusuf
             </h3>
-            <p className="text-xl lg:text-3xl">Backend Developer</p>
+            <p className="text-xl lg:text-3xl">Product Designer</p>
           </div>
         </NavLink>
       </div>
-      <div className="flex justify-between mt-14 lg:mt-20 mx-6 lg:mx-14">
+      {/* <div className="flex justify-between mt-14 lg:mt-20 mx-6 lg:mx-14">
         <NavLink to="/">
           <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-90 transition-all delay-150 ease-in-out">
             <img
@@ -116,7 +116,7 @@ function Team() {
             <p className="text-xl lg:text-3xl">Product Designer</p>
           </div>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 }
