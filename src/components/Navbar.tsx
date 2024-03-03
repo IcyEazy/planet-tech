@@ -64,47 +64,35 @@ export function NavbarA() {
             </button>
           </NavLink>
         </div>
-        <div className="md:hidden flex items-center gap-4">
+        <div
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+          className="flex md:hidden cursor-pointer hover:scale-90 transition-all delay-150 ease-linear"
+        >
           {!isOpen && (
-            <NavLink to="/planet/signup">
-              <button
-                type="button"
-                className="bg-[#0066ff] text-white font-medium px-3 py-1.5 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
               >
-                Get started
-              </button>
-            </NavLink>
+                <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
+              </svg>
+            </div>
           )}
-          <div
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
-            className="flex cursor-pointer hover:scale-90 transition-all delay-150 ease-linear"
-          >
-            {!isOpen && (
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  x="0px"
-                  y="0px"
-                  width="50"
-                  height="50"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
-                </svg>
-              </div>
-            )}
-            {isOpen && (
-              <div>
-                <img className="w-[50px] h-[50px]" src={closeMenu} alt="" />
-              </div>
-            )}
-          </div>
+          {isOpen && (
+            <div>
+              <img className="w-[40px] h-[40px]" src={closeMenu} alt="" />
+            </div>
+          )}
         </div>
       </div>
       {isOpen && (
-        <div className="flex flex-col md:hidden gap-5 items-center text-2xl px-4 mt-3 py-16 bg-[#d4d0d0] h-screen">
+        <div className="flex flex-col md:hidden gap-5 items-center text-2xl px-4 mt-3 py-16 bg-[#434343] h-screen text-[#0066ff]">
           <NavLink
             className="font-semibold hover:text-white hover:font-bold transition-all delay-150 ease-linear"
             to="/planet-tech/"
@@ -132,7 +120,7 @@ export function NavbarA() {
           <NavLink to="/planet-tech/signup">
             <button
               type="button"
-              className="bg-[#0066ff] text-white mt-4 font-medium px-3 py-1.5 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
+              className="bg-[#0066ff] text-white text-[20px] mt-4 font-medium px-3 py-1.5 rounded-md hover:bg-[#0116da] hover:scale-90 transition-all delay-150 ease-in-out"
             >
               Get started
             </button>
@@ -238,7 +226,7 @@ export function NavbarB() {
         <div className="absolute top-0 right-0 px-20 py-3 bg-[#434343] rounded-l-md">
           <div
             onClick={() => setIsOpen(!isOpen)}
-            className="border-2 border-[#919191] rounded-md text-white font-bold text-xl absolute top-0 right-0 py-0.5 px-2.5 cursor-pointer hover:text-[#0166DA] hover:border-[#0166DA] transition-all delay-150 ease-linear"
+            className="border-[1px] border-[#919191] rounded-md text-white font-bold text-xl absolute top-0 right-0 py-0.5 px-2.5 cursor-pointer hover:text-[#0166DA] hover:border-[#0166DA] transition-all delay-150 ease-linear"
           >
             <span className="">X</span>
           </div>
