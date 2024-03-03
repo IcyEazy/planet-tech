@@ -1,7 +1,6 @@
 import Logo from "../assets/Planet.png";
 import Israel from "../assets/Israel.jpg";
 import closeMenu from "../assets/cross.png";
-
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 

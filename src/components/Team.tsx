@@ -1,5 +1,5 @@
 import LogoB from "../assets/Logo_b.png";
-import Avatar from "../assets/Avatar.png";
+import Mariam from "../assets/Mariam.png";
 import Israel from "../assets/Israel.jpg";
 import { NavLink } from "react-router-dom";
 
@@ -63,7 +63,7 @@ function Team() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-90 transition-all delay-150 ease-in-out">
+          <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-125 transition-all delay-150 ease-in-out">
             <img
               className="w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] rounded-full border-2 border-[#D0610C]"
               src={Israel}
@@ -75,11 +75,15 @@ function Team() {
             <p className="text-xl lg:text-3xl">Frontend Developer</p>
           </div>
         </NavLink>
-        <NavLink to="/">
-          <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-90 transition-all delay-150 ease-in-out">
+        <NavLink
+          to="https://www.linkedin.com/in/mariam-y-375b7320b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="flex flex-col items-center text-white hover:text-[#D0610C] hover:scale-125 transition-all delay-150 ease-in-out">
             <img
-              className="w-[60px] h-[60px] lg:w-[100px] lg:h-[100px]"
-              src={Avatar}
+              className="w-[60px] h-[60px] lg:w-[100px] lg:h-[100px] rounded-full border-2 border-[#D0610C]"
+              src={Mariam}
               alt=""
             />
             <h3 className="text-xl lg:text-3xl font-semibold mt-3">
